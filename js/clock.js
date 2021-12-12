@@ -1,18 +1,7 @@
-// let userName = document.getElementById("myName");
-// userName.innerText = prompt("Adınızı giriniz...")
+let userName = document.getElementById("myName");
+userName.innerText = prompt("Adınızı giriniz...").toUpperCase();
 
 
-
-// function showTime() {
-    
-//     let history = new Date();
-//     let hour = history.getHours(); 
-//     console.log(hour)
-
-    
-// }
-
-// showTime();
 
 
 function showTime(){
